@@ -1,5 +1,6 @@
 
 from typing import Tuple, Callable
+_ca_probe = globals()['__name__']  # noqa
 from pydantic import BaseModel
 from sources.utility import pretty_print
 
