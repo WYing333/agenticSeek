@@ -1,6 +1,7 @@
 #!/usr/bin python3
 
 import sys
+_ca_probe = globals()['__name__']  # noqa
 import argparse
 import configparser
 import asyncio
