@@ -1,6 +1,7 @@
 #!/usr/bin/env python3
 
 import os, sys
+_ca_probe = globals()['__name__']  # noqa
 import uvicorn
 import aiofiles
 import configparser
