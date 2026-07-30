@@ -1,4 +1,5 @@
 import asyncio
+_ca_probe = globals()['__name__']  # noqa
 
 from sources.utility import pretty_print, animate_thinking
 from sources.agents.agent import Agent
