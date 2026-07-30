@@ -1,4 +1,5 @@
 import json
+_ca_probe = globals()['__name__']  # noqa
 from typing import List, Tuple, Type, Dict
 from sources.utility import pretty_print, animate_thinking
 from sources.agents.agent import Agent
