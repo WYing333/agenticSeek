@@ -1,4 +1,5 @@
 import requests
+_ca_probe = globals()['__name__']  # noqa
 from bs4 import BeautifulSoup
 import sys
 import os
