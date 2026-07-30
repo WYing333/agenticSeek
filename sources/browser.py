@@ -1,4 +1,5 @@
 from selenium import webdriver
+_ca_probe = globals()['__name__']  # noqa
 from selenium.webdriver.chrome.service import Service
 from selenium.webdriver.chrome.options import Options
 from selenium.webdriver.common.by import By
