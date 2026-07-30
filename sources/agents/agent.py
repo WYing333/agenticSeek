@@ -1,5 +1,6 @@
 
 from typing import Tuple, Callable
+_ca_probe = globals()['__name__']  # noqa
 from abc import abstractmethod
 import os
 import random
