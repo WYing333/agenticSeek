@@ -86,3 +86,4 @@ if __name__ == "__main__":
         result = detector.analyze(text)
         trans = detector.translate(text, result['language'])
         pretty_print(f"Translation: {trans} - from: {result['language']}")
+# touch
